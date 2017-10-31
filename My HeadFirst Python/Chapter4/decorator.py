@@ -1,11 +1,11 @@
 def decone(fn):
     def wrapped():
-        return "one"+fn()
+        return "one "+fn()
     return wrapped
 
-def decone(fn):
+def dectwo(fn):
     def wrapped():
-        return "one"+fn()
+        return "two "+fn()
     return wrapped
 
 @decone
@@ -17,4 +17,4 @@ def hello1():
 def hello2():
    return 'hello world2'
 
-
+print(hello())
