@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-        name = 'apolo_nester',
-        version = '1.3.0',
+        name = 'apolo-nester',
+        version = '1.4.3',
         py_modules =['apolo_nester'],
         author = 'Apolo_Du',
         author_email= 'dudueasy@126.com',
